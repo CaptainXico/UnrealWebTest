@@ -1,11 +1,9 @@
 # Git LFS configuration for large binary files
 
 # WebAssembly and game data files (large binaries)
-*.wasm filter=lfs diff=lfs merge=lfs -text
-*.data filter=lfs diff=lfs merge=lfs -text
-
-# Executables and helper scripts
-*.exe filter=lfs diff=lfs merge=lfs -text
+# NOTE: GitHub Pages doesn't support LFS, so these files must be stored directly in git
+# *.wasm filter=lfs diff=lfs merge=lfs -text
+# *.data filter=lfs diff=lfs merge=lfs -text
 *.command filter=lfs diff=lfs merge=lfs -text
 
 # Compressed files (if using compression)
