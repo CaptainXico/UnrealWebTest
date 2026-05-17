@@ -1,0 +1,17 @@
+# Development/testing helpers (not needed for deployment)
+HTML5LaunchHelper.exe
+RunMacHTML5LaunchHelper.command
+
+# Optional debugging files
+*.symbols
+*.symbolsgz
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
